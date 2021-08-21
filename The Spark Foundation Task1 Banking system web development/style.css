@@ -1,0 +1,245 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span{
+    width: 65%;
+    font-size: 30px;
+    margin: 2%;
+    color: rgb(11, 221, 169);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px 20px;
+    padding-left: 15px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: auto;
+    font-style: bold;
+}
+
+.nav-list li a:hover{
+    color: gray;
+}
+
+.nav-list li ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+.nav-list li ul li:hover > ul{
+    display: block;
+}
+
+.nav-list ul li{
+    width: 100px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+
+.background1{
+    background: rgba(0, 0, 0, 0.7)url('background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)url('background.jpg');
+    background-size: cover;
+}
+
+.firstsection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+
+.text-big{
+    font-size: 40px;
+    text-align: left;
+    color: brown;
+    font-family: auto;
+}
+
+.text-small{
+    font-size: 18px;
+    color: brown;
+}
+
+.btn{
+    height:5rem;
+    width: 10rem;
+    color:black;
+    border:.2rem solid #fff;
+    outline:.2rem solid #fff;
+    outline-offset: -.8rem;
+    font-size: 1.5rem;
+    margin-left: 120px;
+    cursor: pointer;
+    background:none;
+}
+
+.btn:hover{
+    outline-offset: .4rem;
+    background:red;
+}
+
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+
+
+.text-footer{
+    text-align: center;
+    padding: 30px 3px;
+    font-family: auto;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 23px;
+    background-color: white;
+    height: 2px;
+    margin: 3px 3px;
+}
+@media(max-width:1000px){
+    #header{
+        background-image: none;
+        
+    }
+    
+}             
+.row{
+    background: rgb(11, 221, 169);
+   
+}
+.login{
+    background: rgb(18, 176, 204);
+}
+.login img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.login h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.inp{
+    height:50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius:60px;
+    
+}
+
+.btn1{
+    height:50px;
+    width:50%;
+    border:none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background:rgb(235, 165, 188);
+    color: black;
+}
+.btn1:hover{
+    background: rgb(54, 46, 46);
+    color: white;
+    transition:0.5s;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    color:black;
+    font-size: 25px;
+    text-align: left;
+}
+th {
+    background-color:rgb(8, 94, 24);
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: rgb(173, 130, 145);
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+
+
+  .container { 
+    padding: 20px 16px;
+    margin: 40px;
+    border-radius: 20px;
+    background: rgb(40, 126, 239);
+    
+  } 
